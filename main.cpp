@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include <fcntl.h>    
 using namespace std;
-
+// A simple user space program that reads from the MPU6050 device registered on the Raspberry Pi 3
 int main(void){
     string result;
     char buf[1];
